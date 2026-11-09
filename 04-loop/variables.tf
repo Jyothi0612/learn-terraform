@@ -27,3 +27,11 @@ variable "instances" {
   type    = list(any)
   default = ["mongodb", "redis", "mysql", "rabbitmq", "catalogue", "user", "cart", "shipping", "payment", "frontend"]
 }
+
+variable "zone_id" {
+  default = "Z0191431ICNDXLGEQZCB"
+}
+
+variable "domain_name" {
+  default = "agenticengg.online"
+}
