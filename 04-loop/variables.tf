@@ -25,7 +25,7 @@ variable "instance_type" {
 
 variable "instances" {
   type    = list(any)
-  default = ["mongodb", "redis", "mysql", "rabbitmq", "catalogue", "user", "cart", "shipping", "payment", "frontend"]
+  default = ["mongodb", "mysql"]
 }
 
 variable "zone_id" {
