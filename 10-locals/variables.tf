@@ -18,11 +18,11 @@ variable "environment" {
   default = "dev"
 }
 
-variable "ec2-tags" {
-  default = {
-    Name = "roboshop-dev"
-  }
-}
+# variable "ec2-tags" {
+#   default = {
+#     Name = "roboshop-dev"
+#   }
+# }
 
 variable "cidr" {
   type    = list(any)
